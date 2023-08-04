@@ -13,11 +13,20 @@ body {
 	text-align: center;
 }
 
-img {
+.activities {
 	width: 100px;
+    border-radius: 50%;
 }
+#avatar {
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;  
+}
+#main-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
 
-#header {
-	background-image: url("images/los_angeles.jpg");
-	background-size: cover;
 }
