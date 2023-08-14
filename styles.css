@@ -1,8 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Tinos', serif;
 }
 
 #header-title {
@@ -64,6 +63,13 @@ body {
     padding: 5px 0;
 }
 
+.activities-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+
 .guide-section {
     display: flex;
     justify-content: space-around;
@@ -74,13 +80,6 @@ body {
     margin: 0 auto;
     padding: 20px;
     color: #26221B;
-}
-
-.activities-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px 0px;
 }
 
 .activity-hiking, .activity-garden, .activity-museum {
