@@ -52,7 +52,7 @@ body {
 }
 #avatar:hover {
     background-size: 51% 51%;
-
+    transition: all 1s;
 }
 
 #main-logo {
@@ -82,6 +82,7 @@ body {
 
 .header:hover{
     background-image: url("images/love_los_angeles.png");
+    transition: all .3s;
 }  
 
 .img-activities {
@@ -94,6 +95,7 @@ body {
 }
 .img-activities:hover {
     transform: scale(1.1);
+    transition: all .5s;
 }
 
 .activities-section {
