@@ -100,7 +100,6 @@ body {
     justify-content: center;
     padding: 30px 170px;
     background-color: #E7ECEE;
-    
 }
 
 .guide-section {
@@ -119,4 +118,6 @@ body {
 
 .activity {
     padding: 0 50px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
