@@ -82,7 +82,7 @@ body {
 
 .header:hover{
     background-image: url("images/love_los_angeles.png");
-    transition: all .3s;
+    transition: ease-in-out;
 }  
 
 .img-activities {
@@ -95,7 +95,7 @@ body {
 }
 .img-activities:hover {
     transform: scale(1.1);
-    transition: all .5s;
+    transition: ease-in-out;
 }
 
 .activities-section {
