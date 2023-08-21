@@ -71,6 +71,21 @@ body {
     margin: 0 auto;
 }
 
+#underline {
+    --c: linear-gradient(#26221B 0 0);
+	padding-bottom: 0.15em;
+	background: var(--c), var(--c);
+	background-size: 2em 0.3em;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	transition: 0.4s linear, background-size 0.4s 0.2s linear;
+}
+
+#underline:hover {
+    background-size: 30% 0.3em;
+	background-position: 30% 95%, 70% 95%;
+}
+
 .header {
     background-image: url("images/los_angeles.jpg");
     background-size: cover;
