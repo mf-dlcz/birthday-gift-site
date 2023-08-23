@@ -73,7 +73,7 @@ body {
 
 #underline {
     --c: linear-gradient(#26221B 0 0);
-	padding-bottom: 0.15em;
+	padding-bottom: 0.40em;
 	background: var(--c), var(--c);
 	background-size: 2em 0.3em;
 	background-position: 50% 100%;
