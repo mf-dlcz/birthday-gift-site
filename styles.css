@@ -19,9 +19,10 @@ body {
 
 #header-text {
     color: #ffffff;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 2px #3A3C3A;
     display: inline-block;
     background: #7C9CAF;
+    font-size: 25px;
     margin: 0 250px;
     border-radius: 10px;
     padding: 3px 1%;
