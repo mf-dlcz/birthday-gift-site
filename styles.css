@@ -11,18 +11,29 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 830px) {
     .activities-section {
         display: flex;
         flex-direction: column;
     }
     #header-title {
-        font-size: 35px !important;
+        font-size: 40px !important;
     }
 
     #header-text {
-        font-size: 20px !important;
-        padding: 3px 3.4px !important;
+        font-size: 22px !important;
+        padding: 5px 6px !important;
+        margin: 0 25px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #header-title,
+    #header-text {
+        display: flex;
+        flex-direction: column !important;
+        width: auto;
+        margin: 10px auto;
     }
 }
 
@@ -32,25 +43,114 @@ body {
 	text-align: center;
     font-family: 'Tinos', serif;
 }
+/*
+*   Hero Section
+*/
+
+.headerContainer {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-image: url("images/los_angeles.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    max-width: 95vw;
+    height: auto;
+    padding-top: 110px;
+    transition: all 1s ease-in-out;
+}
+
+.headerContainer:hover{
+    background-image: url("images/love_los_angeles.png");
+}
+
+#header-title,
+#header-text {
+    padding: 5px 2%;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
 
 #header-title {
-    display: inline-block;
     background: #CFDBDA;
-    margin: 0 100px 10px;
-    border-radius: 10px;
-    font-size: 45px;
-    padding: 4px 1%;
+    font-size: 50px;
+    margin-bottom: 15px;
 }
 
 #header-text {
     color: #ffffff;
     text-shadow: 0px 0px 2px #3A3C3A;
-    display: inline-flex;
     background: var(--color-4);
     font-size: 25px;
-    margin: 0 250px;
+}
+
+/*
+*   Activities Section
+*/
+
+#activities-title {
+    max-width: 1200px;
+    padding: 30px 80px;
+    font-size: 24px;
+    text-shadow: 0 0 2px #ffffff;
+    background-color: #E7ECEE;
+    margin: 0 auto;
+}
+
+.activities-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px;
+    background-color: #E7ECEE;
+}
+
+.activity {
+    padding: 0 30px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.img-activities {
+    display: inline;
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px 0;
+    image-rendering: pixelated;
+    transition: all .5s ease-in-out;
+}
+
+.img-activities:hover {
+    transform: scale(1.1);
+}
+
+/*
+*   Guide Section
+*/
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 280px;
     border-radius: 10px;
-    padding: 4px 1%;
+    background: #7C9CAF;
+    margin: 50px auto;
+    padding: 20px;
+    color: #26221B;
+    border-radius: 8px;
+    border-bottom: 10px solid #26221B;
 }
 
 #avatar {
@@ -77,25 +177,9 @@ body {
 	cursor: pointer;
     transition: all 1s;
 }
+
 #avatar:hover {
     background-size: 51% 51%;
-}
-
-#main-logo {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    padding: 20px 40px;
-}
-
-#activities-title {
-    max-width: 1200px;
-    padding: 30px 80px;
-    font-size: 24px;
-    text-shadow: 0 0 2px #ffffff;
-    background-color: #E7ECEE;
-    margin: 0 auto;
 }
 
 #underline {
@@ -113,61 +197,9 @@ body {
 	background-position: 30% 97%, 70% 97%;
 }
 
-.header {
-    background-image: url("images/los_angeles.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 343px;
-    padding-top: 150px;
-    transition: all 1s ease-in-out;
-}
-
-.header:hover{
-    background-image: url("images/love_los_angeles.png");
-}  
-
-.img-activities {
-    display: inline;
-	width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding: 5px 0;
-    image-rendering: pixelated;
-    transition: all .5s ease-in-out;
-}
-.img-activities:hover {
-    transform: scale(1.1);
-}
-
-.activities-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding: 30px 80px;
-    background-color: #E7ECEE;
-}
-
-.guide-section {
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    height: 280px;
-    border-radius: 10px;
-    background: #7C9CAF;
-    margin: 50px auto;
-    padding: 20px;
-    color: #26221B;
-    border-radius: 8px;
-    border-bottom: 10px solid #26221B;
-}
-
-.activity {
-    padding: 0 30px;
-    flex-basis: 0;
-    flex-grow: 1;
-}
+/*
+*      Tittle Animation
+*/
 
 .title-word {
     animation: color-animation 4s linear infinite;
