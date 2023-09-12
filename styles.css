@@ -80,10 +80,11 @@ body {
     border-radius: 10px;
     display: inline-block;
     text-align: center;
+    text-shadow: 1px 1px 2px #28241D;
 }
 
 #header-title {
-    background: #CFDBDA;
+    background: #b0c7d5;
     font-size: 50px;
     margin-bottom: 15px;
 }
@@ -93,6 +94,7 @@ body {
     text-shadow: 0px 0px 2px #3A3C3A;
     background: var(--color-4);
     font-size: 25px;
+    letter-spacing: 1px;
 }
 
 /*
