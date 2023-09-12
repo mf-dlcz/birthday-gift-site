@@ -1,16 +1,17 @@
 :root {
-    background-color: white;
+    background-color: #ffffff;
     color:#28241D;
+    --color-4: #7C9CAF;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        background-color: white;
-        color:#28241D;
+        --background-color: #28241D;
+        --color: #FFFFFF;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 700px) {
     .activities-section {
         display: flex;
         flex-direction: column;
@@ -21,13 +22,11 @@
 
     #header-text {
         font-size: 20px !important;
-        margin: 0 100px !important;
         padding: 3px 3.4px !important;
     }
 }
 
 body {
-    max-width: 1200px;
     background-color: #ffffff;
 	margin: 0 auto;
 	text-align: center;
@@ -47,7 +46,7 @@ body {
     color: #ffffff;
     text-shadow: 0px 0px 2px #3A3C3A;
     display: inline-flex;
-    background: #7C9CAF;
+    background: var(--color-4);
     font-size: 25px;
     margin: 0 250px;
     border-radius: 10px;
@@ -91,7 +90,8 @@ body {
 }
 
 #activities-title {
-    padding: 40px 0;
+    max-width: 1200px;
+    padding: 30px 80px;
     font-size: 24px;
     text-shadow: 0 0 2px #ffffff;
     background-color: #E7ECEE;
@@ -120,7 +120,7 @@ body {
     background-repeat: no-repeat;
     height: 343px;
     padding-top: 150px;
-    transition: ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .header:hover{
@@ -134,13 +134,14 @@ body {
     border-radius: 50%;
     padding: 5px 0;
     image-rendering: pixelated;
-    transition:ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .img-activities:hover {
     transform: scale(1.1);
 }
 
 .activities-section {
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
