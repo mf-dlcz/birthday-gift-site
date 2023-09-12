@@ -25,6 +25,8 @@
         padding: 5px 6px !important;
         margin: 0 25px; 
     }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +54,7 @@ body {
     width: 100%;
     position: relative;
     background-image: url("images/los_angeles.jpg");
+    transition: all 1s ease-in-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,7 +68,6 @@ body {
     max-width: 95vw;
     height: auto;
     padding-top: 110px;
-    transition: all 1s ease-in-out;
 }
 
 .headerContainer:hover{
