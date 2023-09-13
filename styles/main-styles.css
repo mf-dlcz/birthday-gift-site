@@ -155,6 +155,7 @@ body {
     color: #26221B;
     border-radius: 8px;
     border-bottom: 10px solid #26221B;
+    font-weight: 600;
 }
 
 #avatar {
