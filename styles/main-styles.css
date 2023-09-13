@@ -158,6 +158,11 @@ body {
     font-weight: 600;
 }
 
+#link {
+    text-decoration: #605D58 wavy underline;
+    text-decoration-thickness: 2px;
+}
+
 #avatar {
     width: 180px;
     height: 248px;
