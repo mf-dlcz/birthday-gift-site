@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Tinos', serif;
+}
+
+#title {
+  font-size: 70px;
+  background-color: #81A1B5;
+  text-shadow: 2px 3px 2px #757E80;
+  padding: 50px;
+  margin: 0 auto; 
+}
