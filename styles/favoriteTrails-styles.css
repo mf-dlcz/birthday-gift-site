@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: 'Tinos', serif;
-  background-color: rgba(160, 192, 218, .05);
+  background-color: rgba(160, 192, 218, 0.6);
 }
 /*
 * Nav Bar
@@ -10,7 +10,8 @@ body {
 .nav-bar {
   display: flex;
   padding: 15px;
-  font-size: 18px; 
+  font-size: 18px;
+  color:#44494C;
 }
  #home {
   flex: 1;
@@ -21,11 +22,9 @@ body {
 */
 #title {
   font-size: 70px;
-  background-color: #A0C0DA;
   text-shadow: 1px 1px 2px #DFDDD2;
   padding: 50px;
   margin: 0 auto;
-  color: #1D242A;
 }
 .title-word {
     animation: color-animation 4s linear infinite;
@@ -41,6 +40,12 @@ body {
     --color-1: #44494C;
     --color-2: #837C53;
     --color-3: #8A8F96;
+}
+
+.title-word-3 {
+    --color-1: #8A8F96;
+    --color-2: #44494C;
+    --color-3: #837C53;
 }
 
 @keyframes color-animation {
@@ -64,4 +69,5 @@ body {
 .fav-trail-img {
   width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
