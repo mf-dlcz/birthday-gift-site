@@ -26,3 +26,15 @@ body {
   margin: 0 auto;
   color: #1D242A;
 }
+
+/*
+* Image Container
+*/
+
+.img-containter {
+  display: flex;
+}
+
+.fav-trail-img {
+  background-size: 1200px;
+}
