@@ -3,11 +3,26 @@ body {
   margin: 0 auto;
   font-family: 'Tinos', serif;
 }
+/*
+* Nav Bar
+*/
+.nav-bar {
+  display: flex;
+  padding: 15px;
+  font-size: 18px; 
+}
+ #home {
+  flex: 1;
+ }
 
+/*
+* 
+*/
 #title {
   font-size: 70px;
-  background-color: #81A1B5;
-  text-shadow: 2px 3px 2px #757E80;
+  background-color: #548FCB;
+  text-shadow: 2px 3px 2px #C0D0D7;
   padding: 50px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  color: #1D242A;
 }
