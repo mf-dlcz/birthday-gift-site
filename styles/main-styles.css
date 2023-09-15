@@ -40,7 +40,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(background-color);
 	margin: 0 auto;
 	text-align: center;
     font-family: 'Tinos', serif;

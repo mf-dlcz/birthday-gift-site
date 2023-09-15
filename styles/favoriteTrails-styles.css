@@ -26,23 +26,23 @@ body {
   padding: 50px;
   margin: 0 auto;
 }
-.title-word {
+.title-words {
     animation: color-animation 4s linear infinite;
 }
 
-.title-word-1 {
+.title-words-1 {
     --color-1: #837C53;
     --color-2: #8A8F96;
     --color-3: #44494C;
 }
 
-.title-word-2 {
+.title-words-2 {
     --color-1: #44494C;
     --color-2: #837C53;
     --color-3: #8A8F96;
 }
 
-.title-word-3 {
+.title-words-3 {
     --color-1: #8A8F96;
     --color-2: #44494C;
     --color-3: #837C53;
