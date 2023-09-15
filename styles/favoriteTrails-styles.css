@@ -2,6 +2,7 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: 'Tinos', serif;
+  background-color: rgba(160, 192, 218, .05);
 }
 /*
 * Nav Bar
@@ -16,15 +17,40 @@ body {
  }
 
 /*
-* 
+*   Hero Section
 */
 #title {
   font-size: 70px;
-  background-color: #548FCB;
-  text-shadow: 2px 3px 2px #C0D0D7;
+  background-color: #A0C0DA;
+  text-shadow: 1px 1px 2px #DFDDD2;
   padding: 50px;
   margin: 0 auto;
   color: #1D242A;
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #837C53;
+    --color-2: #8A8F96;
+    --color-3: #44494C;
+}
+
+.title-word-2 {
+    --color-1: #44494C;
+    --color-2: #837C53;
+    --color-3: #8A8F96;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
 }
 
 /*
@@ -36,5 +62,6 @@ body {
 }
 
 .fav-trail-img {
-  background-size: 1200px;
+  width: 1200px;
+  margin: 0 auto;
 }
