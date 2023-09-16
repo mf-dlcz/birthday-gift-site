@@ -148,10 +148,9 @@ body {
     justify-content: center;
     width: 400px;
     height: 280px;
-    border-radius: 10px;
     background: #7C9CAF;
     margin: 50px auto;
-    padding: 20px;
+    padding: 20px 30px;
     color: #26221B;
     border-radius: 8px;
     border-bottom: 10px solid #26221B;
