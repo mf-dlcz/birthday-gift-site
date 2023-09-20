@@ -68,27 +68,23 @@ body {
 * Image Container
 */
 
-.img-containter {
+.img-container {
+  max-width: 1200px;
   display: flex;
-  flex-wrap: wrap;
-}
 
-.img-containter > div > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .fav-trail-img {  
   justify-content: center;
   margin: 0 auto;
+  width:400px;
+  height: 400px; 
+
 }
 
-@media all and (max-width: 600px) {
-  .img-containter {
-    flex-wrap: wrap;
-  }
-  .img-containter > .fav-trail-img {
-    flex: 1 1 50%;
-  }
+/*
+* Map Container
+*/
+
+.map-container { 
 }
