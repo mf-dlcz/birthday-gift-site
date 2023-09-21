@@ -166,6 +166,12 @@ body {
     text-decoration-thickness: 2px;
 }
 
+#link:hover, #link:focus {
+    color: var(--color-4);
+    font-weight: 700;
+    font-size: 18px;
+}
+
 #avatar {
     width: 180px;
     height: 248px;
