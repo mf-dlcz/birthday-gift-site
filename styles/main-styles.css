@@ -163,6 +163,7 @@ body {
 #link {
     text-decoration: #605D58 wavy underline;
     text-decoration-thickness: 2px;
+    color: #E7ECEE;
 }
 
 #link:hover, #link:focus {
@@ -200,7 +201,7 @@ body {
     background-size: 51% 51%;
 }
 
-#underline {
+#linkedIn-link {
     --c: linear-gradient(#26221B 0 0);
 	padding-bottom: 0.40em;
 	background: var(--c), var(--c);
@@ -208,11 +209,13 @@ body {
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 	transition: 0.4s linear, background-size 0.4s 0.2s linear;
+    color: #E7ECEE;
 }
 
-#underline:hover {
+#linkedIn-link:hover, #linkedIn-link:focus {
     background-size: 30% 0.3em;
 	background-position: 30% 97%, 70% 97%;
+    color: #25211B;
 }
 
 /*
