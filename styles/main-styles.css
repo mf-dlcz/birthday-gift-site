@@ -54,7 +54,7 @@ body {
 */
 
 .headerContainer {
-    height: 800px;
+    height: 500px;
     width: 100%;
     position: relative;
     background-image: url("/images/los_angeles.png");
@@ -88,7 +88,7 @@ body {
 
 #header-title {
     background: #b0c7d5;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 15px;
 }
 
@@ -149,15 +149,18 @@ body {
 .guide-section {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 280px;
+    width: auto;
+    height: auto;
     background: #7C9CAF;
-    margin: 50px auto;
-    padding: 20px 30px;
+    margin: 0 auto;
+    padding: 30px 30px;
     color: #26221B;
-    border-radius: 8px;
     border-bottom: 10px solid #26221B;
     font-weight: 600;
+}
+
+#guides-bio {
+    width: 400px;
 }
 
 #link {
