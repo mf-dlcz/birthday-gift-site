@@ -113,8 +113,9 @@ body {
 }
 .activity-title,
 #activities-title {
-    color: #7c7c74;
+    color: #446B44;
     text-shadow: 0 0 1px #434038;
+    letter-spacing: 0.5px;
 }
 
 .activities-section {
@@ -169,7 +170,7 @@ body {
 #link {
     text-decoration: #605D58 wavy underline;
     text-decoration-thickness: 2px;
-    color: #E7ECEE;
+    color: #446B44;
 }
 
 #link:hover, #link:focus {
