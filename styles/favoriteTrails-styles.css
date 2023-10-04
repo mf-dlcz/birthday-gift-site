@@ -9,19 +9,23 @@ body {
 */
 .nav-bar {
   display: flex;
-  padding: 15px;
-  font-size: 18px;
-  color:#44494C;
-  justify-content: center;
+  padding: 25px;
+  font-size: 20px;
   margin: 0 auto;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: 600;
 }
-#guide {
-  flex: 1;
+a:link {
+  text-decoration: none;
+  color:#44494C;
 }
 
- #home {
-  flex: 1;
- }
+a:visited {
+  color: #5D7185;
+  text-shadow: 0 0 1px #ABC6DD;
+}
+
 
 /*
 *   Hero Section
