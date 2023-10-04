@@ -132,6 +132,10 @@ body {
     flex-grow: 1;
 }
 
+.activity-details {
+    text-align: justify;
+}
+
 .img-activities {
     display: inline;
 	width: 200px;
