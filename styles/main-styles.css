@@ -175,6 +175,7 @@ body {
     text-decoration: #605D58 wavy underline;
     text-decoration-thickness: 2px;
     color: #446B44;
+    font-weight: 600;
 }
 
 #link:hover, #link:focus {
