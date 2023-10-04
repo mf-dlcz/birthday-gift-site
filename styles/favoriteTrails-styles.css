@@ -74,15 +74,13 @@ a:visited {
 
 .img-container {
   max-width: 1200px;
-  max-height: 1200px;
   display: flex;
+  padding: 30px 50px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-.fav-trail-img {  
-  justify-content: center;
-  margin: 0 auto;
-  width:100px;
-  height: 200px; 
+.fav-trail-imgs {  
 
 }
 
