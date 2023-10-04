@@ -228,6 +228,10 @@ body {
 	background-position: 30% 97%, 70% 97%;
     color: #25211B;
 }
+#guide-details {
+    text-align: justify;
+    padding: 0 10px;
+}
 
 /*
 *      Tittle Animation
