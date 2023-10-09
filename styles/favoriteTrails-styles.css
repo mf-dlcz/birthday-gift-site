@@ -77,18 +77,19 @@ a:visited {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .fav-trail-imgs {  
-  width: 550px;
+  width: 450px;
   border-radius: 10px;
+  margin: 20px;
 }
 
 img {
-  --s: 60px;
+  --s: 20px;
   --b: 7px;
-  --w: 300px;
+  --w: 200px;
   --h: 200px;
   --c: #2D3127;
 
