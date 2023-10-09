@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: 'Tinos', serif;
-  background-color: rgba(160, 192, 218, 0.6);
+  background-color: #DFDDD2;
 }
 /*
 * Nav Bar
@@ -75,13 +75,14 @@ a:visited {
 .img-container {
   max-width: 1200px;
   display: flex;
-  padding: 30px 50px;
   margin: 0 auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .fav-trail-imgs {  
-
+  width: 550px;
+  border-radius: 10px;
 }
 
 /*
