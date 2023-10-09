@@ -69,7 +69,7 @@ a:visited {
 }
 
 /*
-* Image Container
+* Image 
 */
 
 .img-container {
@@ -85,11 +85,37 @@ a:visited {
   border-radius: 10px;
 }
 
+img {
+  --s: 60px;
+  --b: 7px;
+  --w: 300px;
+  --h: 200px;
+  --c: #2D3127;
+
+  width: var(--w);
+  height: var(--h); /* Set the height */
+  aspect-ratio: var(--w) / var(--h); /* Set the aspect ratio for the rectangle */
+  object-fit: cover;
+  padding: calc(2 * var(--s));
+  --_g: var(--c) var(--b), #0000 0 calc(100% - var(--b)), var(--c) 0;
+  background: linear-gradient(var(--_g)) 50% / 100% var(--_i, 100%) no-repeat,
+              linear-gradient(90deg, var(--_g)) 50% / var(--_i, 100%) 100% no-repeat;
+  outline: calc(var(--w) / 2) solid #0009;
+  outline-offset: calc(var(--w) / -2 - 2 * var(--s));
+  transition: .4s;
+  cursor: pointer;
+}
+
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: cal(var(--s)/2);
+}
+
 /*
 * Map Container
 */
 
 .map-container { 
-
+  padding: 50px;
 
 }
