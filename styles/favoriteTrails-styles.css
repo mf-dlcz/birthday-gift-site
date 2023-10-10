@@ -18,11 +18,11 @@ body {
 }
 a:link {
   text-decoration: none;
-  color:#44494C;
+  color:#3D425B;
 }
 
 a:visited {
-  color: #5D7185;
+  color: #393C52;
   text-shadow: 0 0 1px #ABC6DD;
 }
 
@@ -72,6 +72,7 @@ a:visited {
 #description-of-Trail {
   margin: 0 auto;
   width: 1400px;
+  color: #110E0E;
 }
 
 /*
@@ -123,4 +124,6 @@ img:hover {
 
 .map-container { 
   padding: 40px 10px;
+  background-color: #A8D9B5;
+  margin: 0 auto;
 }
