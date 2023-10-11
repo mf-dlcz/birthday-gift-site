@@ -1,3 +1,10 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #28241D;
+        --color: #FFFFFF;
+    }
+}
+
 body {
   text-align: center;
   margin: 0 auto;
