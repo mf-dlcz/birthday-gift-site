@@ -34,7 +34,7 @@ The project utilizes the following technologies and features:
 First, you'll need to clone this repository to your local machine. Open your terminal and run the following command:
 
 ```git
-git clone https://github.com/mf-dlcz/discoverLA.git
+git clone https://github.com/mf-dlcz/discover-LA.git
 ```
 
 2. **Navigate to the Project Folder**:
