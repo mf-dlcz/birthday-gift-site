@@ -26,12 +26,12 @@ a:link {
 
 a:visited {
   color: #181815;
-  text-shadow: 0 0 1px #ABC6DD;
+  text-shadow: 0 0 2px #B2CDE8;
+  opacity: 70%;
 }
 
 a:hover {
   cursor: pointer;
-  transform: scale(1.2);
 }
 
 /*
@@ -117,7 +117,7 @@ a:hover {
 
 .fav-trail-imgs {  
   width: 550px;
-  margin: 40px 0;
+  margin: 40px 0 10px;
   image-rendering: pixelated;
 }
 
@@ -154,5 +154,5 @@ img:hover {
 .map-container { 
   padding: 10px 10px;
   background-color: #A8D9B5;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
