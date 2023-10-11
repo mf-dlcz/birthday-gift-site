@@ -169,7 +169,7 @@ body {
     font-weight: 600;
 }
 
-#your-guide-title {
+#guide-title {
     font-size: 22px;
     letter-spacing: 0.5px;
     color: #E7ECEE;
@@ -177,6 +177,7 @@ body {
 
 #guides-bio {
     width: 400px;
+    font-size: 17px;
 }
 
 #link {
