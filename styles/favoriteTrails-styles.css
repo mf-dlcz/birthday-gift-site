@@ -12,20 +12,20 @@ body {
 .nav-bar {
   display: flex;
   padding: 25px;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 auto;
   list-style: none;
   justify-content: space-between;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 a:link {
   text-decoration: none;
-  color:#3D425B;
+  color:#383122;
 }
 
 a:visited {
-  color: #393C52;
+  color: #484026;
   text-shadow: 0 0 1px #ABC6DD;
 }
 
@@ -39,17 +39,31 @@ a:visited {
   position: relative;
   background-image: url(/images/hiking4.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 45%;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
 }
 
 #title {
+  width: 550px;
   font-size: 70px;
   text-shadow: 1px 1px 2px #DFDDD2;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 7px;
+  margin: 40px auto;
+  background: #B2CDE8;
+  opacity: 87%;
+  border-radius: 10px;
+}
+
+#description-of-Trail {
+  margin: 25px auto;
+  width: 1400px;
+  color: #383122;
+  background: #B2CDE8;
+  border-radius: 10px;
+  opacity: 87%;
+  padding: 7px;
 }
 
 .title-words {
@@ -84,18 +98,12 @@ a:visited {
   100%  {color: var(--color-1)}
 }
 
-#description-of-Trail {
-  margin: 0 auto;
-  width: 1200px;
-  color: #110E0E;
-}
-
 /*
 * Image 
 */
 
 .img-container {
-  max-width: 1200px;
+  max-width: 1440px;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -103,16 +111,16 @@ a:visited {
 }
 
 .fav-trail-imgs {  
-  width: 490px;
-  margin: 20px;
+  width: 550px;
+  margin: 40px 0;
   image-rendering: pixelated;
 }
 
 img {
   --s: 15px;
   --b: 2px;
-  --w: 200px;
-  --h: 200px;
+  --w: 250px;
+  --h: 250px;
   --c: #2D3127;
 
   width: var(--w);
@@ -139,7 +147,7 @@ img:hover {
 */
 
 .map-container { 
-  padding: 20px 10px;
+  padding: 30px 10px;
   background-color: #A8D9B5;
   margin: 0 auto;
 }
