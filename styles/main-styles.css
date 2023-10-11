@@ -90,6 +90,7 @@ body {
     background: #b0c7d5;
     font-size: 60px;
     margin-bottom: 15px;
+    opacity: 95%;
 }
 
 #header-text {
@@ -97,7 +98,8 @@ body {
     text-shadow: 0px 0px 2px #3A3C3A;
     background: var(--color-4);
     font-size: 28px;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
+    opacity: 85%;
 }
 
 /*
@@ -165,6 +167,12 @@ body {
     color: #26221B;
     border-bottom: 15px solid #26221B;
     font-weight: 600;
+}
+
+#your-guide-title {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #E7ECEE;
 }
 
 #guides-bio {
