@@ -63,4 +63,4 @@ This command will launch a development server, and you'll be able to view the we
 
 ## Contributing
 
-If you would like to contribute to this repository, feel free to open issues or submit pull requests. Contributions and improvements are always welcomed.
+If you would like to contribute to this repository, feel free to open issues or submit pull requests. Contributions and improvements are always welcomed. Thanks:)
