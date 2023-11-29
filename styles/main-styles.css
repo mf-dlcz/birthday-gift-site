@@ -3,7 +3,7 @@
     color:#28241D;
     --color-4: #7C9CAF;
 }
-
+/*  media queries   */
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #28241D;
@@ -48,6 +48,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
     font-family: 'Tinos', serif;
+    line-height: 1.54;
 }
 /*
 *   Hero Section
@@ -108,7 +109,7 @@ body {
 
 #activities-title {
     max-width: 1200px;
-    padding: 30px 80px;
+    padding: 20px 0 10px;
     font-size: 24px;
     background-color: #D3DEDD;
     margin: 0 auto;
@@ -117,7 +118,7 @@ body {
 #activities-title {
     color: #446B44;
     text-shadow: 0 0 1px #434038;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .activities-section {
@@ -132,10 +133,12 @@ body {
     padding: 0 30px;
     flex-basis: 0;
     flex-grow: 1;
+    width: 33.333;
 }
 
 .activity-details {
-    text-align: initial; 
+    text-align: initial;
+    letter-spacing: 1px;
 }
 
 .img-activities {
@@ -241,6 +244,7 @@ body {
 #guide-details {
     text-align: justify;
     padding: 0 15px;
+    line-height: 1.4;
 }
 
 /*
