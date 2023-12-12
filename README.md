@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-This is a solo project completed as part of the Scrimba Front-End Path.
+This project showcases my city.
 
 ![website screenshot](/images/website.PNG)
 
